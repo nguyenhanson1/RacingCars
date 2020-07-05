@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeRacingMultGame_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xB152FFC3,
-				0x932EF30E,
+				0x6BBEDFBA,
+				0xD2338223,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

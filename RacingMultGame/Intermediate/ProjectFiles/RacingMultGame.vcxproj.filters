@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\RacingMultGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{9B42B12A-49CA-4088-908C-17EAFA1C1205}</UniqueIdentifier>
+      <UniqueIdentifier>{34E1EFA1-2D07-4ED4-B3A1-7E689CE8E6D3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RacingMultGame.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,9 @@
     <None Include="..\..\Source\RacingMultGameEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{CD9CD523-C2D0-4819-827E-9D85281DB80A}</UniqueIdentifier>
+      <UniqueIdentifier>{ABEBDD76-4C5A-4603-8D86-896FDD0B9EA5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +31,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\RacingMultGame">
-      <UniqueIdentifier>{D22F6B3E-6D40-402D-A327-BC816DBC502F}</UniqueIdentifier>
+      <UniqueIdentifier>{ACA2E7F2-8389-4621-AE13-A7D50CE6EB1D}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\RacingMultGame\GoKart.cpp">
+      <Filter>Source\RacingMultGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RacingMultGame\GoKart.h">
+      <Filter>Source\RacingMultGame</Filter>
+    </ClInclude>
     <None Include="..\..\Source\RacingMultGame\RacingMultGame.Build.cs">
       <Filter>Source\RacingMultGame</Filter>
     </None>
@@ -71,15 +78,11 @@
     <ClInclude Include="..\..\Source\RacingMultGame\RacingMultGameWheelRear.h">
       <Filter>Source\RacingMultGame</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\RacingMultGame\GoKart.h">
-      <Filter>Source\RacingMultGame</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\RacingMultGame\GoKart.cpp">
+    <ClCompile Include="..\..\Source\RacingMultGame\RacingMultiplayerGameInstance.cpp">
       <Filter>Source\RacingMultGame</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\RacingMultGame\RacingMultiplayerGameInstance.h">
+      <Filter>Source\RacingMultGame</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

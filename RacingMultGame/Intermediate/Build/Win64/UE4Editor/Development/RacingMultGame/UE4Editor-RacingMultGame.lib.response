@@ -14,6 +14,7 @@
 "D:\Repos\RacingCarMult\RacingMultGame\Intermediate\Build\Win64\UE4Editor\Development\RacingMultGame\RacingMultGamePawn.cpp.obj"
 "D:\Repos\RacingCarMult\RacingMultGame\Intermediate\Build\Win64\UE4Editor\Development\RacingMultGame\RacingMultGameWheelFront.cpp.obj"
 "D:\Repos\RacingCarMult\RacingMultGame\Intermediate\Build\Win64\UE4Editor\Development\RacingMultGame\RacingMultGameWheelRear.cpp.obj"
+"D:\Repos\RacingCarMult\RacingMultGame\Intermediate\Build\Win64\UE4Editor\Development\RacingMultGame\RacingMultiplayerGameInstance.cpp.obj"
 "D:\Repos\RacingCarMult\RacingMultGame\Intermediate\Build\Win64\UE4Editor\Development\RacingMultGame\GoKart.gen.cpp.obj"
 "D:\Repos\RacingCarMult\RacingMultGame\Intermediate\Build\Win64\UE4Editor\Development\RacingMultGame\RacingMultGame.init.gen.cpp.obj"
 "D:\Repos\RacingCarMult\RacingMultGame\Intermediate\Build\Win64\UE4Editor\Development\RacingMultGame\RacingMultGameGameMode.gen.cpp.obj"
@@ -21,6 +22,7 @@
 "D:\Repos\RacingCarMult\RacingMultGame\Intermediate\Build\Win64\UE4Editor\Development\RacingMultGame\RacingMultGamePawn.gen.cpp.obj"
 "D:\Repos\RacingCarMult\RacingMultGame\Intermediate\Build\Win64\UE4Editor\Development\RacingMultGame\RacingMultGameWheelFront.gen.cpp.obj"
 "D:\Repos\RacingCarMult\RacingMultGame\Intermediate\Build\Win64\UE4Editor\Development\RacingMultGame\RacingMultGameWheelRear.gen.cpp.obj"
+"D:\Repos\RacingCarMult\RacingMultGame\Intermediate\Build\Win64\UE4Editor\Development\RacingMultGame\RacingMultiplayerGameInstance.gen.cpp.obj"
 "D:\Repos\RacingCarMult\RacingMultGame\Intermediate\Build\Win64\UE4Editor\Development\RacingMultGame\Default.rc2.res"
 /OUT:"D:\Repos\RacingCarMult\RacingMultGame\Intermediate\Build\Win64\UE4Editor\Development\RacingMultGame\UE4Editor-RacingMultGame.lib"
 /INCLUDE:IMPLEMENT_MODULE_RacingMultGame
