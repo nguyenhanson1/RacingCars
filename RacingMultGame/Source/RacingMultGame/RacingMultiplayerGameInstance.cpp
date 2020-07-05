@@ -36,6 +36,8 @@ void URacingMultiplayerGameInstance::LoadMenu()
 
 void URacingMultiplayerGameInstance::Host()
 {
+	UEngine* Engine = GetEngine();
+
 }
 
 void URacingMultiplayerGameInstance::Join(const FString & Address)
