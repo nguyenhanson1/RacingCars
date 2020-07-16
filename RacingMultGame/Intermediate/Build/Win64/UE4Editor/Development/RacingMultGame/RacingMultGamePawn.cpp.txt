@@ -38,11 +38,3 @@ D:\EpicGame\UE_4.23\Engine\Plugins\Runtime\PhysXVehicles\Intermediate\Build\Win6
 D:\EpicGame\UE_4.23\Engine\Plugins\Runtime\PhysXVehicles\Intermediate\Build\Win64\UE4Editor\Inc\PhysXVehicles\WheeledVehicleMovementComponent4W.generated.h
 D:\EpicGame\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/TextRenderComponent.h
 D:\EpicGame\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TextRenderComponent.generated.h
-D:\EpicGame\UE_4.23\Engine\Source\Runtime\HeadMountedDisplay\Public\IXRTrackingSystem.h
-d:\epicgame\ue_4.23\engine\source\runtime\headmounteddisplay\public\HeadMountedDisplayTypes.h
-D:\EpicGame\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\HeadMountedDisplayTypes.generated.h
-d:\epicgame\ue_4.23\engine\source\runtime\headmounteddisplay\public\IIdentifiableXRDevice.h
-D:\EpicGame\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\IIdentifiableXRDevice.generated.h
-d:\epicgame\ue_4.23\engine\source\runtime\headmounteddisplay\public\IXRInput.h
-D:\EpicGame\UE_4.23\Engine\Source\Runtime\HeadMountedDisplay\Public\HeadMountedDisplayFunctionLibrary.h
-D:\EpicGame\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\HeadMountedDisplayFunctionLibrary.generated.h

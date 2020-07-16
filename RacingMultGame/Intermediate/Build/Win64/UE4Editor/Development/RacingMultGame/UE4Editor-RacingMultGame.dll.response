@@ -81,6 +81,8 @@
 "D:\EpicGame\UE_4.23\Engine\Plugins\Runtime\PhysXVehicles\Intermediate\Build\Win64\UE4Editor\Development\PhysXVehicles\UE4Editor-PhysXVehicles.lib"
 "D:\EpicGame\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Development\HeadMountedDisplay\UE4Editor-HeadMountedDisplay.lib"
 "D:\EpicGame\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Development\UMG\UE4Editor-UMG.lib"
+"D:\EpicGame\UE_4.23\Engine\Plugins\Online\OnlineSubsystem\Intermediate\Build\Win64\UE4Editor\Development\OnlineSubsystem\UE4Editor-OnlineSubsystem.lib"
+"D:\EpicGame\UE_4.23\Engine\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\UE4Editor\Development\OnlineSubsystemSteam\UE4Editor-OnlineSubsystemSteam.lib"
 /OUT:"D:\Repos\RacingCarMult\RacingMultGame\Binaries\Win64\UE4Editor-RacingMultGame.dll"
 /IMPLIB:"D:\Repos\RacingCarMult\RacingMultGame\Intermediate\Build\Win64\UE4Editor\Development\RacingMultGame\UE4Editor-RacingMultGame.suppressed.lib"
 /PDB:"D:\Repos\RacingCarMult\RacingMultGame\Binaries\Win64\UE4Editor-RacingMultGame.pdb"
