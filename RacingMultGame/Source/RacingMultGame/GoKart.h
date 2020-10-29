@@ -62,7 +62,11 @@ private:
 	UFUNCTION(Server, Reliable, WithValidation)
 	void Server_MoveRight(float value);
 
+	void MoveForward(float value);
+	void MoveRight(float value);
+
 	FVector Velocity;
 	float Throttle;
 	float SteeringThrow;
 };
+
