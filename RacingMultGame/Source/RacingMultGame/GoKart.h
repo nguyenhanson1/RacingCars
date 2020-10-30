@@ -65,8 +65,19 @@ private:
 	void MoveForward(float value);
 	void MoveRight(float value);
 
+	UPROPERTY(Replicated)
 	FVector Velocity;
+
+
+	UPROPERTY(ReplicatedUsing= OnRep_ReplicatedTransform)
+	FTransform ReplicatedTransform;
+
+	UFUNCTION()
+	void OnRep_ReplicatedTransform();
+
+	UPROPERTY(Replicated)
 	float Throttle;
+	UPROPERTY(Replicated)
 	float SteeringThrow;
 };
 
