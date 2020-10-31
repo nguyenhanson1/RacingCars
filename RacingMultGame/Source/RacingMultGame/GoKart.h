@@ -27,7 +27,7 @@ struct FGoKartState
 	GENERATED_USTRUCT_BODY();
 
 	UPROPERTY()
-	FTransform ReplicatedTransform;
+	FTransform Transform;
 	UPROPERTY()
 	FVector Velocity;
 	UPROPERTY()
@@ -54,11 +54,13 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 
-
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 private:
+
+	void SimulateMove(FGoKartMove Move);
+
 	FVector GetAirResistance();
 	FVector GetRollingResistance();
 
@@ -82,33 +84,28 @@ private:
 	UPROPERTY(EditAnywhere)
 	float RollingResistanceCoefficient = 0.015;
 	
-	void ApplyRotation(float DeltaTime);
+	void ApplyRotation(float DeltaTime, float Steering);
 
 	void UpdateLocationFromVelocity(float DeltaTime);
 
 	UFUNCTION(Server, Reliable, WithValidation)
-	void Server_MoveForward(float value);
+	void Server_SendMove(FGoKartMove Move);
 	
-	UFUNCTION(Server, Reliable, WithValidation)
-	void Server_MoveRight(float value);
-
 	void MoveForward(float value);
 	void MoveRight(float value);
+
+
+	UFUNCTION()
+	void OnRep_ServerState();
 
 	UPROPERTY(Replicated)
 	FVector Velocity;
 
-
-	UPROPERTY(ReplicatedUsing= OnRep_ReplicatedTransform)
-	FTransform ReplicatedTransform;
-
-	UFUNCTION()
-	void OnRep_ReplicatedTransform();
-
-	UPROPERTY(Replicated)
 	float Throttle;
-	UPROPERTY(Replicated)
 	float SteeringThrow;
+
+	UPROPERTY(ReplicatedUsing =OnRep_ServerState)
+	FGoKartState ServerState;
 };
 
 
