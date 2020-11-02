@@ -61,6 +61,10 @@ private:
 
 	void SimulateMove(FGoKartMove Move);
 
+	FGoKartMove CreateMove(float DeltaTime);
+	
+	void ClearAcknowledgeMoves(FGoKartMove LastMove);
+
 	FVector GetAirResistance();
 	FVector GetRollingResistance();
 
@@ -106,6 +110,8 @@ private:
 
 	UPROPERTY(ReplicatedUsing =OnRep_ServerState)
 	FGoKartState ServerState;
+
+	TArray<FGoKartMove> UnacknowlegedMoves;
 };
 
 
