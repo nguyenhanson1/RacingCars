@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\RacingMultGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{46BADA1C-0373-4A68-B477-3146340E7248}</UniqueIdentifier>
+      <UniqueIdentifier>{3896AE05-CD8F-4088-9E2A-B29B79F5DB6C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RacingMultGame.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{6C9155E2-7B16-4225-8197-D1560F826064}</UniqueIdentifier>
+      <UniqueIdentifier>{6417C522-77B9-4A71-B112-ADD0A9ED2E07}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -31,12 +31,18 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\RacingMultGame">
-      <UniqueIdentifier>{0BCA93E1-9893-4CE2-B9FA-0C35AA2242EA}</UniqueIdentifier>
+      <UniqueIdentifier>{4504FE8B-FF5B-4C1B-9583-368ED3786329}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\RacingMultGame\GoKart.cpp">
       <Filter>Source\RacingMultGame</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\RacingMultGame\GoKart.h">
+      <Filter>Source\RacingMultGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RacingMultGame\GoKartMovementComponent.cpp">
+      <Filter>Source\RacingMultGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RacingMultGame\GoKartMovementComponent.h">
       <Filter>Source\RacingMultGame</Filter>
     </ClInclude>
     <None Include="..\..\Source\RacingMultGame\RacingMultGame.Build.cs">

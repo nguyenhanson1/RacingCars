@@ -474,6 +474,8 @@
     <None Include="..\..\Config\DefaultInput.ini"/>
     <ClCompile Include="..\..\Source\RacingMultGame\GoKart.cpp"/>
     <ClInclude Include="..\..\Source\RacingMultGame\GoKart.h"/>
+    <ClCompile Include="..\..\Source\RacingMultGame\GoKartMovementComponent.cpp"/>
+    <ClInclude Include="..\..\Source\RacingMultGame\GoKartMovementComponent.h"/>
     <None Include="..\..\Source\RacingMultGame\RacingMultGame.Build.cs"/>
     <ClCompile Include="..\..\Source\RacingMultGame\RacingMultGame.cpp"/>
     <ClInclude Include="..\..\Source\RacingMultGame\RacingMultGame.h"/>
